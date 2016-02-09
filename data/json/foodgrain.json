@@ -1,0 +1,85 @@
+[{
+  "Particulars": "Cereals Kharif",
+  "Unit": "Ton mn",
+  "Production": "122.16"
+}, {
+  "Particulars": "Cereals Rabi",
+  "Unit": "Ton mn",
+  "Production": "116.63"
+}, {
+  "Particulars": "Wheat Rabi",
+  "Unit": "Ton mn",
+  "Production": "93.51"
+}, {
+  "Particulars": "Rice Kharif",
+  "Unit": "Ton mn",
+  "Production": "92.37"
+}, {
+  "Particulars": "Coarse Cereals Kharif",
+  "Unit": "Ton mn",
+  "Production": "29.79"
+}, {
+  "Particulars": "Maize Kharif",
+  "Unit": "Ton mn",
+  "Production": "16.19"
+}, {
+  "Particulars": "Pulses Rabi",
+  "Unit": "Ton mn",
+  "Production": "12.43"
+}, {
+  "Particulars": "Rice Rabi",
+  "Unit": "Ton mn",
+  "Production": "12.87"
+}, {
+  "Particulars": "Coarse Cereals Rabi",
+  "Unit": "Ton mn",
+  "Production": "10.25"
+}, {
+  "Particulars": "Bajra Kharif",
+  "Unit": "Ton mn",
+  "Production": "8.74"
+}, {
+  "Particulars": "Gram Rabi",
+  "Unit": "Ton mn",
+  "Production": "8.83"
+}, {
+  "Particulars": "Maize Rabi",
+  "Unit": "Ton mn",
+  "Production": "6.06"
+}, {
+  "Particulars": "Pulses Kharif",
+  "Unit": "Ton mn",
+  "Production": "5.91"
+}, {
+  "Particulars": "Tur Kharif",
+  "Unit": "Ton mn",
+  "Production": "3.02"
+}, {
+  "Particulars": "Jowar Kharif",
+  "Unit": "Ton mn",
+  "Production": "2.84"
+}, {
+  "Particulars": "Jowar Rabi",
+  "Unit": "Ton mn",
+  "Production": "2.44"
+}, {
+  "Particulars": "Other Kharif Pulses Rabi",
+  "Unit": "Ton mn",
+  "Production": "2.73"
+}, {
+  "Particulars": "Ragi Kharif",
+  "Unit": "Ton mn",
+  "Production": "1.57"
+}, {
+  "Particulars": "Barley Rabi",
+  "Unit": "Ton mn",
+  "Production": "1.75"
+}, {
+  "Particulars": "Other Kharif Pulses Kharif",
+  "Unit": "Ton mn",
+  "Production": "0.62"
+}, {
+  "Particulars": "Small Millets Kharif",
+  "Unit": "Ton mn",
+  "Production": "0.44"
+}]

@@ -1,0 +1,45 @@
+[{
+  "Particulars": "Soyabean Kharif",
+  "Unit": "Ton mn",
+  "Production": "14.666"
+}, {
+  "Particulars": "Rapeseed and Mustard Rabi",
+  "Unit": "Ton mn",
+  "Production": "8.029"
+}, {
+  "Particulars": "Groundnut Kharif",
+  "Unit": "Ton mn",
+  "Production": "3.187"
+}, {
+  "Particulars": "Castorseed Kharif",
+  "Unit": "Ton mn",
+  "Production": "1.964"
+}, {
+  "Particulars": "Groundnut Rabi",
+  "Unit": "Ton mn",
+  "Production": "1.508"
+}, {
+  "Particulars": "Sesamun Kharif",
+  "Unit": "Ton mn",
+  "Production": "0.685"
+}, {
+  "Particulars": "Nigerseed Kharif",
+  "Unit": "Ton mn",
+  "Production": "0.102"
+}, {
+  "Particulars": "Linseed Rabi",
+  "Unit": "Ton mn",
+  "Production": "0.149"
+}, {
+  "Particulars": "Safflower Rabi",
+  "Unit": "Ton mn",
+  "Production": "0.109"
+}, {
+  "Particulars": "Sunflower Kharif",
+  "Unit": "Ton mn",
+  "Production": "0.187"
+}, {
+  "Particulars": "Sunflower Rabi",
+  "Unit": "Ton mn",
+  "Production": "0.357"
+}]
