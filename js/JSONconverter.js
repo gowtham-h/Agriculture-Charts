@@ -87,5 +87,5 @@
   });
 
   function oilseedSort(a, b) {
-    return parseInt(b["Production"]) - parseInt(a["Production"]);
+    return parseFloat(b["Production"]) - parseFloat(a["Production"]);
   }

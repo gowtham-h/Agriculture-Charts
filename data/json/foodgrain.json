@@ -23,25 +23,25 @@
   "Unit": "Ton mn",
   "Production": "16.19"
 }, {
-  "Particulars": "Pulses Rabi",
-  "Unit": "Ton mn",
-  "Production": "12.43"
-}, {
   "Particulars": "Rice Rabi",
   "Unit": "Ton mn",
   "Production": "12.87"
+}, {
+  "Particulars": "Pulses Rabi",
+  "Unit": "Ton mn",
+  "Production": "12.43"
 }, {
   "Particulars": "Coarse Cereals Rabi",
   "Unit": "Ton mn",
   "Production": "10.25"
 }, {
-  "Particulars": "Bajra Kharif",
-  "Unit": "Ton mn",
-  "Production": "8.74"
-}, {
   "Particulars": "Gram Rabi",
   "Unit": "Ton mn",
   "Production": "8.83"
+}, {
+  "Particulars": "Bajra Kharif",
+  "Unit": "Ton mn",
+  "Production": "8.74"
 }, {
   "Particulars": "Maize Rabi",
   "Unit": "Ton mn",
@@ -59,21 +59,21 @@
   "Unit": "Ton mn",
   "Production": "2.84"
 }, {
-  "Particulars": "Jowar Rabi",
-  "Unit": "Ton mn",
-  "Production": "2.44"
-}, {
   "Particulars": "Other Kharif Pulses Rabi",
   "Unit": "Ton mn",
   "Production": "2.73"
 }, {
-  "Particulars": "Ragi Kharif",
+  "Particulars": "Jowar Rabi",
   "Unit": "Ton mn",
-  "Production": "1.57"
+  "Production": "2.44"
 }, {
   "Particulars": "Barley Rabi",
   "Unit": "Ton mn",
   "Production": "1.75"
+}, {
+  "Particulars": "Ragi Kharif",
+  "Unit": "Ton mn",
+  "Production": "1.57"
 }, {
   "Particulars": "Other Kharif Pulses Kharif",
   "Unit": "Ton mn",

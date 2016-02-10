@@ -16,13 +16,23 @@ var xAxis = d3.svg.axis()
 
 var yAxis = d3.svg.axis()
     .scale(y)
-    .orient("left")
+    .orient("left");
+
+var tip = d3.tip()
+      .attr('class', 'd3-tip')
+      .offset([-10, 0])
+      .html(function(d) {
+        return "<span style='color:black'>" + d.Production + " (Ton mn)</span>";
+      })
 
 var svg = d3.select("#tab2").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    svg.call(tip);
+
 
 d3.json("../data/json/foodgrain.json", function(error, data) {
   if (error) console.log(error);
@@ -49,13 +59,15 @@ d3.json("../data/json/foodgrain.json", function(error, data) {
       .style("text-anchor", "end")
       .text("Production");
 
-  svg.selectAll(".bar")
+  svg.selectAll(".bar1")
       .data(data)
     .enter().append("rect")
-      .attr("class", "bar")
+      .attr("class", "bar1")
       .attr("x", function(d) { return x(d.Particulars); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.Production); })
-      .attr("height", function(d) { return height - y(d.Production); });
+      .attr("height", function(d) { return height - y(d.Production); })
+      .on('mouseover', tip.show)
+      .on('mouseout', tip.hide);
 });
 })();

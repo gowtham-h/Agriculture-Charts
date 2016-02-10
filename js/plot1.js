@@ -1,5 +1,5 @@
 (function(){
-var margin = {top: 20, right: 20, bottom: 150, left: 40},
+var margin = {top: 20, right: 20, bottom: 190, left: 40},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
@@ -16,13 +16,24 @@ var xAxis = d3.svg.axis()
 
 var yAxis = d3.svg.axis()
     .scale(y)
-    .orient("left")
+    .orient("left");
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<span style='color:black'>" + d.Production + " (Ton mn)</span>";
+  })
+
 
 var svg = d3.select("#tab1").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    svg.call(tip);
+
 
 d3.json("../data/json/oilseed.json", function(error, data) {
   if (error) console.log(error);
@@ -56,6 +67,8 @@ d3.json("../data/json/oilseed.json", function(error, data) {
       .attr("x", function(d) { return x(d.Particulars); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.Production); })
-      .attr("height", function(d) { return height - y(d.Production); });
+      .attr("height", function(d) { return height - y(d.Production); })
+      .on('mouseover', tip.show)
+      .on('mouseout', tip.hide);
 });
 })();

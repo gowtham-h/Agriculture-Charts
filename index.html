@@ -13,8 +13,9 @@
 
 <body>
 
-  <div class="container-fluid" >
-    <nav class="navbar">
+  <div class="container" >
+    <div class="row">
+    <nav class="navbar col-sm-4" style="padding: 10px 0px 0px 0px">
       <div class="navbar-header">
         <a href="#" class="navbar-brand">
           <span class="logo">Agriculture Charts</span>
@@ -22,41 +23,46 @@
       </div>
     </nav>
 
-    <div class="row" style="margin-left:30px;">
-      <div class="col-12">
+      <div class="col-sm-8" style="padding: 10px 0px 0px 0px">
         <ul class="nav nav-pills">
-          <li class="active"><a href="#tab1" data-toggle="tab">Oilseeds</a></li>
-          <li><a href="#tab2" data-toggle="tab">Foodgrain</a></li>
-          <li><a href="#tab3" data-toggle="tab">Commercial</a></li>
-          <li><a href="#tab4" data-toggle="tab">South States</a></li>
+          <li class="active"><a href="#tab1" data-toggle="tab">Oilseeds Production</a></li>
+          <li><a href="#tab2" data-toggle="tab">Foodgrain Production</a></li>
+          <li><a href="#tab3" data-toggle="tab">Commercial Crops Production</a></li>
+          <li><a href="#tab4" data-toggle="tab">South States Rice Production</a></li>
         </ul>
+      </div>
+    </div>
+      <div class ="row">
 
+      <div class="col-12">
         <div class="tab-content">
-          <div class="tab-pane active" id="tab1">
-
+          <div class="tab-pane active"  id="tab1">
+            <h3>Oilseeds crop type vs Production - 2013</h3>
           </div>
 
           <div class="tab-pane " id="tab2">
-
+            <h3>Foodgrains crop type vs Production - 2013</h3>
           </div>
 
           <div class="tab-pane " id="tab3">
-
+            <h3>Aggregated commercial crops vs Year </h3>
           </div>
 
           <div class="tab-pane " id="tab4">
-
+            <h3>Rice production vs Year for Southern states</h3>
           </div>
       </div>
     </div>
+
+  </div>
     </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+  <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
   <script src="js/plot3.js"></script>
   <script src="js/plot1.js"></script>
    <script src="js/plot2.js"></script>
    <script src="js/plot4.js"></script>
-
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>

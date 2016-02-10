@@ -23,9 +23,13 @@
   "Unit": "Ton mn",
   "Production": "0.685"
 }, {
-  "Particulars": "Nigerseed Kharif",
+  "Particulars": "Sunflower Rabi",
   "Unit": "Ton mn",
-  "Production": "0.102"
+  "Production": "0.357"
+}, {
+  "Particulars": "Sunflower Kharif",
+  "Unit": "Ton mn",
+  "Production": "0.187"
 }, {
   "Particulars": "Linseed Rabi",
   "Unit": "Ton mn",
@@ -35,11 +39,7 @@
   "Unit": "Ton mn",
   "Production": "0.109"
 }, {
-  "Particulars": "Sunflower Kharif",
+  "Particulars": "Nigerseed Kharif",
   "Unit": "Ton mn",
-  "Production": "0.187"
-}, {
-  "Particulars": "Sunflower Rabi",
-  "Unit": "Ton mn",
-  "Production": "0.357"
+  "Production": "0.102"
 }]

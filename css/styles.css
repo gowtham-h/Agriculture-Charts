@@ -1,19 +1,39 @@
 .logo{
-  font-size: 39px;
-  text-decoration: underline;
+  font-size: 35px;
   color: black;
 }
 
+/*To change pill color*/
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+       color: black;
+       background-color: #5cb85c;
+   }
+
+       .nav-pills > li.active > a:hover {
+           background-color: #5cb85c;
+           color:black;
+       }
+.tab-pane{
+  margin-top:30px;
+}
+/*SVG Border css*/
+svg{
+  border: solid 1px #eee;
+}
+
+/*Bar color*/
 .bar {
   fill: steelblue;
 }
 
-.bar:hover {
-  fill: brown;
+.bar1{
+  fill:green;
 }
 
+/*Axis color*/
 .axis {
-  font: 11px sans-serif;
+  font: 7px;
+  letter-spacing: -1px;
 }
 
 .axis path,
@@ -24,4 +44,34 @@
 }
 
 .x.axis path {
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.d3-tip {
+  font-weight: bold;
+  padding:6;
+  color: #fff;
+  border-radius: 2px;
+}
+
+
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
 }
