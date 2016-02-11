@@ -4,7 +4,7 @@ var margin = {top: 20, right: 20, bottom: 190, left: 40},
     height = 500 - margin.top - margin.bottom;
 
 var x = d3.scale.ordinal()
-    .rangeRoundBands([10, width], 0.3);
+    .rangeRoundBands([0, width], 0.3);
 
 var y = d3.scale.linear()
     .range([height, 0]);
@@ -20,7 +20,6 @@ var yAxis = d3.svg.axis()
 
 var tip = d3.tip()
   .attr('class', 'd3-tip')
-  .offset([-10, 0])
   .html(function(d) {
     return "<span style='color:black'>" + d.Production + " (Ton mn)</span>";
   })
@@ -56,7 +55,7 @@ d3.json("../data/json/oilseed.json", function(error, data) {
     .append("text")
       .attr("transform", "rotate(-90)")
       .attr("y", 6)
-      .attr("dy", "1.9em")
+      .attr("dy", "0.5em")
       .style("text-anchor", "end")
       .text("Production");
 

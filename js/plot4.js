@@ -75,7 +75,7 @@ d3.json("../data/json/south.json", function(error, data) {
       .data(color.domain().slice().reverse())
     .enter().append("g")
       .attr("class", "legend")
-      .attr("transform", function(d, i) { return "translate(40," + i * 20 + ")"; });
+      .attr("transform", function(d, i) { return "translate(-600," + i * 20 + ")"; });
 
   legend.append("rect")
       .attr("x", width - 18)

@@ -39,7 +39,6 @@
 
   d3.json("../data/json/commercial.json", function(error, data) {
     if (error) throw error;
-
     x.domain(data.map(function(d) {  return d.Year}));
      y.domain(d3.extent(data, function(d) { return d.Quantity; }));
 
@@ -62,6 +61,20 @@
         .datum(data)
         .attr("class", "line")
         .attr("d", line);
+
+      svg.selectAll("dot")
+        .data(data)
+        .enter().append("circle")
+        .attr("r", 2)
+        // .attr('stroke', 'red')
+        .attr('fill', 'steelblue')
+        .attr("cx", function(d) {
+          return x(d.Year);
+        })
+        .attr("cy", function(d) {
+          return y(d.Quantity);
+        })
+
 
   });
 })();

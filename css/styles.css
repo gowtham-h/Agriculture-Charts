@@ -23,7 +23,7 @@ svg{
 
 /*Bar color*/
 .bar {
-  fill: steelblue;
+  fill: rgb(60,120,125);
 }
 
 .bar1{
@@ -72,6 +72,5 @@ svg{
 /* Style northward tooltips differently */
 .d3-tip.n:after {
   margin: -1px 0 0 0;
-  top: 100%;
   left: 0;
 }
